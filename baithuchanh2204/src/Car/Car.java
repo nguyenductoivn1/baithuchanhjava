@@ -1,5 +1,5 @@
 package Car;
-interface Car {
+interface car {
     void move();
     void stop();
     void turnLeft();

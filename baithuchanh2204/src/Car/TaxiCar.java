@@ -1,5 +1,5 @@
 package Car;
-public class TaxiCar implements Car {
+public class TaxiCar implements car {
     public void move() {
         System.out.println("Taxi di bang 4 banh");
     }

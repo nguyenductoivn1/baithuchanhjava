@@ -1,22 +1,22 @@
 package Animal;
-public class Tiger extends Animal {
-    void eat() {
+public class Tiger extends animal {
+    public void eat() {
         System.out.println("Ho an thit");
     }
 
-    void sleep() {
+    public void sleep() {
         System.out.println("Ho di ngu");
     }
 
-    void walk() {
+    public void walk() {
         System.out.println("Ho di bang 4 chan");
     }
 
-    void run() {
+    public void run() {
         System.out.println("Ho chay rat nhanh");
     }
 
-    void roar() {
+    public void roar() {
         System.out.print("Ho gao rat to");
     }
 }
